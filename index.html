@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>CSS3 Flexbox 進階排版班</title>
+    <!-- <link href="style.css" rel="stylesheet" type="text/css"> -->
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        body {
+            background-color: #ccc;
+        }
+        .wrapper {
+            width: 1000px;
+            margin: 30px auto;
+            background-color: #fff;
+            padding: 50px 0;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+        ul {
+            outline: 1px solid orange;
+            width: 800px;
+            margin: 0 auto 10px;
+
+            display: flex;
+        }
+        li {
+            background-color: brown;
+            height: 50px; 
+            line-height: 48px;
+            text-align: center;
+            margin-right: 10px;
+            flex-grow: 1;
+        }
+        li:last-child {
+            margin-right: 0;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<section class="wrapper">
+    
+    <ul class="sel">
+        <li><a href="#">Photoshop</a></li>
+        <li><a href="#">Dreamweaver</a></li>
+        <li><a href="#">illustrator</a></li>
+        <li><a href="#">Node.JS</a></li>
+        <li><a href="#">Bootstrap</a></li>
+        <li><a href="#">JavaScript</a></li>
+    </ul>
+    
+    <img src="pic01.png" alt="">
+    
+</section>
+
+</body>
+</html>
